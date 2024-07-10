@@ -6,13 +6,23 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What data type is returned by an arithmetic operation?
 
+Number
+
 - What is string concatenation?
+
+Adding(joining) strings together
 
 - What purpose(s) does the `+` plus operator serve in JavaScript?
 
+Adds two operands
+
 - What data type is returned by comparing two values (`<`, `>`, `===`, etc)?
 
+Boolean(True or False)
+
 - What does the `+=` "plus-equals" operator do?
+
+Adds the right operand to the left operand and assigns the result to the left operand.
 
 ## Notes
 
