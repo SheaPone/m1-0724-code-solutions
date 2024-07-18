@@ -64,7 +64,7 @@ function isOldEnoughToDrive(person: Person): any {
 console.log('isOldEnoughToDrive:', isOldEnoughToDrive(shea));
 
 function isOldEnoughToDrinkAndDrive(person: Person): any {
-  if (person.age >= 0) {
+  if (person.age >= 16 && person.age >= 21) {
     return false;
   }
 }
