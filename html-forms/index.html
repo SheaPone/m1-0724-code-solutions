@@ -8,7 +8,7 @@
   <body>
     <h1>Coding Form!</h1>
     <form>
-      <label for="email">Email</label>
+      <div><label for="email">Email</label></div>
       <div><input type="email" id="email" name="email" required /></div>
       <label for="Whyiscodingcool?">Why is coding cool?</label>
       <div>
@@ -20,21 +20,19 @@
         </select>
       </div>
       <p>Favorite Language (choose one)</p>
-      <label><input type="radio" name="language" value="HTML" />HTML</label>
-      <label><input type="radio" name="language" value="CSS" />CSS</label>
-      <label
-        ><input
-          type="radio"
-          name="language"
-          value="JavaScript" />JavaScript</label
-      >
+      <label for="HTML">HTML</label>
+      <input type="radio" id="HTML" name="language" value="HTML" />
+      <label for="CSS">CSS</label>
+      <input type="radio" id="CSS" name="language" value="CSS" />
+      <label for="JavaScript">JavaScript</label>
+      <input type="radio" id="JavaScript" name="language" value="JavaScript" />
       <p>Would you like to sign up for more information?</p>
-      <label
-        ><input type="checkbox" name="Sign Me Up" value="yes" />Sign me
-        up!</label
-      >
-      <div><label for="comments">Comments</label></div>
-      <textarea id="comments" name="comments"></textarea>
+      <label for="Signmeup!">Sign me up!</label>
+      <input type="checkbox" id="signmeup!" name="Sign Me Up" value="yes" />
+      <div>
+        <label for="comments">Comments</label>
+      </div>
+      <div><textarea id="comments" name="comments"></textarea></div>
       <div><button type="submit">Submit</button></div>
     </form>
   </body>
