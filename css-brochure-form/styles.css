@@ -1,4 +1,5 @@
-* {
+body {
+  text-align: center;
   font-family: 'Brandon Grotesque', sans-serif;
 }
 
@@ -14,39 +15,24 @@ h3 {
 
 label {
   font-size: 11px;
-  margin-left: 6px;
-  margin-left: 285px;
-}
-
-input[type='email'] {
-  width: 400px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-left: 275px;
-  border-radius: 4px;
-}
-
-input[type='text'] {
-  width: 400px;
-  margin-bottom: 8px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-left: 275px;
-  border-radius: 4px;
+  display: block;
+  text-align: left;
+  margin-left: 7px;
+  margin-bottom: 5px;
 }
 
 #how-many-engineers {
   width: 400px;
   padding-top: 7px;
   padding-bottom: 7px;
-  margin-left: 275px;
   border-radius: 3px;
   background-color: hsl(0deg, 3%, 94%);
+  font-family: 'Brandon Grotesque', sans-serif;
+  margin-bottom: 2px;
 }
 
 button {
-  margin-top: 10px;
-  margin-left: 605px;
+  margin-top: 6px;
   border-radius: 20px;
   padding-right: 15px;
   padding-left: 15px;
@@ -56,4 +42,20 @@ button {
   border-color: #f0657c;
   color: white;
   font-size: 11px;
+  display: block;
+  margin-left: 80%;
+}
+
+.form-input {
+  width: 400px;
+  margin-bottom: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
 }
