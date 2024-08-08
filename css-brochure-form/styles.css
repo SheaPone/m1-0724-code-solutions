@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+h3 {
+  color: #f0657c;
+  text-align: center;
+}
+
+::placeholder {
+  text-align: left;
+  font-family: AtlasGrotesk, sans-serif;
+}
+
+label {
+  font-size: 11px;
+  display: block;
+  text-align: left;
+  margin-left: 7px;
+  margin-bottom: 5px;
+}
+
+#how-many-engineers {
+  width: 400px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+  background-color: hsl(0deg, 3%, 94%);
+  font-family: 'Brandon Grotesque', sans-serif;
+  margin-bottom: 2px;
+}
+
+button {
+  margin-top: 6px;
+  border-radius: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f0657c;
+  border-color: #f0657c;
+  color: white;
+  font-size: 11px;
+  display: block;
+  margin-left: 80%;
+}
+
+.form-input {
+  width: 400px;
+  margin-bottom: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
