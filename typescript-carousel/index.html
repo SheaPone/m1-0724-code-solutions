@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Pokemon Carousel</h1>
+    <div class="carousel-container">
+      <div class="arrows">
+        <div class="left-arrow">
+          <i class="back-image fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="right-arrow">
+          <i class="next-image fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="carousel-image">
+        <div class="image">
+          <img class="imageShown" src="images/001.png" />
+        </div>
+      </div>
+      <div class="dots">
+        <i id="first" class="fa-solid fa-circle"></i>
+        <i id="second" class="fa-regular fa-circle"></i>
+        <i id="third" class="fa-regular fa-circle"></i>
+        <i id="fourth" class="fa-regular fa-circle"></i>
+        <i id="fifth" class="fa-regular fa-circle"></i>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

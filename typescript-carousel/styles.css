@@ -1,0 +1,28 @@
+.hidden {
+  display: none;
+}
+
+.carousel-container {
+  border: solid;
+  border-color: black;
+  width: 95%;
+  text-align: center;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  font-size: 2rem;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 35%;
+  left: 6%;
+  font-size: 2rem;
+}
+
+.dots {
+  text-align: center;
+}
