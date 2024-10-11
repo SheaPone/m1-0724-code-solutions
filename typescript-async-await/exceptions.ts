@@ -42,13 +42,9 @@ async function throwChained(): Promise<void> {
 }
 
 async function runAll(): Promise<void> {
-  try {
-    throwOnce();
-    throwSeveral();
-    throwChained();
-  } catch (error) {
-    console.log(elapsed(), 'runAll Error:', error);
-  }
+  throwOnce();
+  throwSeveral();
+  throwChained();
 }
 
 runAll();
